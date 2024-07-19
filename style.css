@@ -227,6 +227,11 @@ html::-webkit-scrollbar{
   background: white;
   box-shadow: #233727 0px 8px 24px;
 }
+.plant .card:hover
+{
+  transform: translateX(10px) translateY(5px);
+  transition: 0.5s;
+}
 .star i{
   color: #735d51;
 }
@@ -478,9 +483,14 @@ html::-webkit-scrollbar{
 /* footer */
 html{
   scroll-behavior: smooth;
+  
 }
-.arrow{
+
+#sticky{
   position: fixed;
+  bottom: 2%;
+  margin-left: 90%;
+  
   border-radius: 50px;
   height: 50px;
   bottom: 40px;
@@ -488,4 +498,5 @@ html{
   text-decoration: none;
   text-align: center;
   line-height: 50px;
+ 
 }
